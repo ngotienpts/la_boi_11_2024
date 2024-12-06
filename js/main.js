@@ -70,6 +70,77 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     }
 
+    // xử lý sự kiện active
+    function handleActiveElement() {
+        const activeContainers = document.querySelectorAll('.js__activeContainer')
+        if (activeContainers.length === 0) return;
+        
+        
+        activeContainers.forEach((activeContainer)=>{
+            
+            const activeElements = activeContainer.querySelectorAll('.js__activeItem')
+            
+            if (activeElements.length === 0) return;
+
+            activeElements.forEach((activeElement)=>{
+
+                activeElement.onclick = function() {
+                    activeContainer.querySelector('.js__activeItem.active').classList.remove('active')
+                    this.classList.add('active');
+                }
+            })
+           
+        })
+    }
+
+    // xử lý sự kiện tăng giảm số lượng sản phẩm
+    function handleIncremental() {
+        const incrementals = document.querySelectorAll('.js__incremental')
+        if (incrementals.length === 0) return;
+
+        incrementals.forEach((incremental)=>{
+            let deincrement = incremental.querySelector(".js__deincrement");
+            let increment = incremental.querySelector(".js__increment");
+            let number = incremental.querySelector(".js__numberValue");
+
+            
+            let step = 1;
+            let max = 100;
+            let min = 0;
+            let valueInput = 0;
+            
+            function updateValue(newValue) {
+                valueInput = newValue;
+                console.log("Current value:", valueInput);
+            }
+            
+            number.oninput = function () {
+                number.value = number.value > max ? max : number.value < min ? min : number.value;
+                updateValue(number.value);
+            };
+            
+            increment.addEventListener("click", () => {
+                if (parseInt(number.value) + step >= max) {
+                    number.value = max;
+                } else {
+                    number.value = parseInt(number.value) + step;
+                }
+                updateValue(number.value);
+            });
+            
+            deincrement.addEventListener("click", () => {
+                if (parseInt(number.value) - step <= min) {
+                    number.value = min;
+                } else {
+                    number.value = parseInt(number.value) - step;
+                }
+                updateValue(number.value);
+            });
+
+        })
+
+    }
+
 
     // Khởi tạo slider với một item
     function initSliderOneItems() {
@@ -189,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var pagi = item.querySelector(".swiper-pagination");
                 new Swiper(slider, {
                     slidesPerView: 2,
-                    spaceBetween: 0,
+                    spaceBetween: 10,
                     slidesPerGroup: 1,
                     navigation: {
                         nextEl: next || null,
@@ -208,8 +279,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             slidesPerView: 3,
                         },
                         1024: {
+                            slidesPerView: 4,
+                        },
+                        1200: {
                             slidesPerView: 5,
-                            spaceBetween: 10,
                         }
                     },
                 });
@@ -230,17 +303,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             var small = new Swiper(sliderSmall, {
                 spaceBetween: 15,
-                slidesPerView: 2,
+                slidesPerView: 4,
                 slidesPerGroup: 1,
                 freeMode: true,
                 watchSlidesProgress: true,
                 breakpoints: {
                     640: {
-                        slidesPerView: 3,
+                        slidesPerView: 4,
                         spaceBetween: 15,
                     },
                     768: {
-                        slidesPerView: 3,
+                        slidesPerView: 4,
                         spaceBetween: 15,
                     },
                     1024: {
@@ -452,7 +525,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // xử lý customer select
     function handleCustomerSelect() {
         var x, i, j, l, ll, selElmnt, a, b, c;
-        x = document.getElementsByClassName("custom-select");
+        x = document.getElementsByClassName("js__customSelect");
         l = x.length;
         for (i = 0; i < l; i++) {
           selElmnt = x[i].getElementsByTagName("select")[0];
@@ -593,6 +666,8 @@ document.addEventListener("DOMContentLoaded", function () {
         handleCustomerSelect();
         handleCollapse();
         handleChangeTab();
+        handleActiveElement();
+        handleIncremental();
         // handleVideo_16x9();
         window.addEventListener('scroll',handleWindowScroll);
         window.addEventListener('resize',handleWindowScroll);
