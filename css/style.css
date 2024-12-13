@@ -2838,7 +2838,7 @@ input[type=number] {
 }
 
 .product-primary {
-  z-index: 9999;
+  z-index: 1010;
 }
 .product-primary__container {
   padding-top: 60px;
