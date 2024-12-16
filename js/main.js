@@ -504,6 +504,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
 
     }
+
     // xử lý sự kiện để show option product
     function handleShowOptionProduct() {
         const filterItems = document.querySelectorAll(".js__filterItem");
@@ -516,6 +517,28 @@ document.addEventListener("DOMContentLoaded", function () {
             
             showFilterOption.onclick = function() {
                 filterItem.classList.toggle('active')
+            }
+    
+            })
+
+    }
+
+    // xử lý sự kiện để show full content detail
+    function handleShowFullContentDetail() {
+        const fullContentContainers = document.querySelectorAll(".js__fullContentContainer");
+        
+        if(fullContentContainers.length === 0) return 
+        
+        fullContentContainers.forEach((fullContentContainer)=>{
+            
+            const fullContentDetail = fullContentContainer.querySelector(".js__fullContentDetail");
+            const seeFullContentContainer = fullContentContainer.querySelector(".js__seeFullContentContainer");
+            const seeFullContent = fullContentContainer.querySelector(".js__seeFullContent");
+            
+            seeFullContent.onclick = function() {
+                console.log(fullContentDetail)
+                fullContentDetail.classList.add('full');
+                seeFullContentContainer.style.display = 'none';
             }
     
             })
@@ -663,6 +686,7 @@ document.addEventListener("DOMContentLoaded", function () {
         initFancybox();
         handleShowPopup();
         handleShowOptionProduct();
+        handleShowFullContentDetail();
         handleCustomerSelect();
         handleCollapse();
         handleChangeTab();
