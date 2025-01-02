@@ -3846,1148 +3846,270 @@
             </section>
             <!-- end secondary -->
 
-            <!-- detail product primary -->
-            <section class="detail-product-primary relative z-20 w-wrapper">
-                <div class="detail-product-primary__container w-1380 w-1380 w-md-500 py-3xl-50 py-md-30 js__fullContentContainer">
-                    <!-- top -->
-                    <div class="detail-product-primary__top d-3xl-flex d-md-block js__popupContainer">
+            <!-- cart primary -->
+            <section class="cart-primary relative z-20 w-wrapper over-hidden ">
+                <div class="cart-primary__container w-1380 w-1380 w-md-500 py-3xl-50 py-md-30">
+                    <h1 class="heading-primary__title fs-40 uppercase mb-15 fw-700">Giỏ hàng</h1>
+
+                    <div class="cart-primary__cart-all d-3xl-flex items-center justify-between gap-20 mb-15">
+                        <div class="custom-checkbox flex-1">
+                            <input type="checkbox" id="cart-all" name="cartAll" checked="">
+                            <label for="cart-all">
+                              <div class="check">
+                                <img src="./images/svg/check-w.svg" alt="">
+                              </div>
+                              <span class="check-txt">Tất cả (3 sản phẩm)</span>
+                            </label>
+                        </div>
+                        <div class="clear-cart-all p-8 pointer flex-0">
+                            <img src="./images/svg/thung_rac.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="cart-primary__content bg-white shadow border-25 d-3xl-flex d-lg-block over-hidden">
                         <!-- left -->
-                        <div class="left flex-0">
-                            <div class="detail-product-primary__slide js__swiperGalleryContainerPicture">
-                                <!-- large -->
-                                <div class="slide-large mb-20">
-                                    <div class="swiper js__swiperGalleryLarge">
-                                        <div class="swiper-wrapper">
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-25 over-hidden">
-                                                    <img src="./images/img_1.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-25 over-hidden">
-                                                    <img src="./images/img_2.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-25 over-hidden">
-                                                    <img src="./images/img_3.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-25 over-hidden">
-                                                    <img src="./images/img_4.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-25 over-hidden">
-                                                    <img src="./images/img_5.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-25 over-hidden">
-                                                    <img src="./images/img_6.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end large -->
-                                <!-- small -->
-                                <div thumbsSlider="" class="slide-small relative">
-                                    <div class="swiper js__swiperGallerySmall">
-                                        <div class="swiper-wrapper">
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-10 over-hidden pointer">
-                                                    <img src="./images/img_1.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-10 over-hidden pointer">
-                                                    <img src="./images/img_2.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-10 over-hidden pointer">
-                                                    <img src="./images/img_3.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-10 over-hidden pointer">
-                                                    <img src="./images/img_4.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-10 over-hidden pointer">
-                                                    <img src="./images/img_5.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            <!-- slide -->
-                                            <div class="swiper-slide">
-                                                <div class="article-img bg-brown-linear ratio-6x7 border-10 over-hidden pointer">
-                                                    <img src="./images/img_6.png" alt=""/>
-                                                </div>
-                                            </div>
-                                            <!-- end slide -->
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="swiper-button-prev"></div>
-                                    <div class="swiper-button-next"></div>
-                                </div>
-                                <!-- end small -->
-                            </div>
-                        </div>
-                        <!-- end left -->
-                        <!-- right -->
-                        <div class="right flex-1">
-                            <h1 class="product-title fs-32 fw-700 mb-20">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</h1>
-                            <h2 class="product-code fs-16 text-gray-99 mb-20 fw-300">
-                                <span>Mã: </span>
-                                <span class="code">PG-TTCNDS-DMCVMB-H66</span> 
-                            </h2>
-                            <!-- price -->
-                            <div class="product-price p-30 bg-yellow-fff border-15 d-3xl-flex items-center justify-center gap-30 mb-30">
-                                <div class="price-wrapper d-3xl-flex d-md-block items-center gap-30 justify-center">
-                                    <h3 class="new-price fs-32 fw-700">120.000.000đ</h3>
-                                    <h4 class="old-price fs-24 text-gray-84">150.000.000đ</h4>
-                                </div>
-                                <span class="discount">-5%</span>
-                            </div>
-                            <!-- end price -->
-
-                            <!-- describe -->
-                            <div class="product-describe mb-40">
-                                <div class="product-describe__item product-describe--material d-3xl-flex mb-20">
-                                    <div class="label fs-18 fw-600 flex-1">Chất liệu:</div>
-                                    <div class="content fs-18 flex-3">
-                                        <span class="item">Đồng</span>
-                                    </div>
-                                </div>
-                                <div class="product-describe__item product-describe--size d-3xl-flex mb-20">
-                                    <div class="label fs-18 fw-600 flex-1">Kích thước:</div>
-                                    <div class="content flex-3 js__activeContainer">
-                                        <span class="item active js__activeItem">45cmx45cmx45cm</span>
-                                        <span class="item js__activeItem">45cmx45cmx45cm</span>
-                                        <span class="item js__activeItem">45cmx45cmx45cm</span>
-                                    </div>
-                                </div>
-                                <div class="product-describe__item product-describe--origin d-3xl-flex mb-20">
-                                    <div class="label fs-18 fw-600 flex-1">Xuất xứ:</div>
-                                    <div class="content fs-18 flex-3">
-                                        <span class="item">Nhập khẩu</span>
-                                    </div>
-                                </div>
-                                <div class="product-describe__item product-describe--quantity d-3xl-flex mb-20">
-                                    <div class="label fs-18 fw-600 flex-1">Số lượng:</div>
-                                    <div class="content fs-18 flex-3">
-                                        <div class="quantity-wrap js__incremental">
-                                            <button class="increment js__increment">+</button>
-                                            <input type="number" value="0" class="number js__numberValue" min="0" max="100">
-                                            <button class="deincrement js__deincrement">-</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end describe -->
-
-                            <!-- btn group -->
-                            <div class="product-btn-group mb-20">
-                                <div class="btn-advise btn btn--reverse uppercase fs-18 js__showPopup">Tư vấn</div>
-                                <div class="btn-add-cart btn uppercase fs-18">Thêm vào giỏ hàng</div>
-                                <div class="btn-buy-now btn uppercase fs-18">Mua ngay!</div>
-                            </div>
-                            <!-- end btn group -->
-
-                            <!-- sapo -->
-                            <div class="product-sapo fs-18 mb-20 pb-20 border-b-d9">
-                                <p>Nếu quý khách cần mua hoặc cần tư vấn sản phẩm này, vui lòng chọn “ TƯ VẤN “ hoặc “THÊM VÀO GIỎ HÀNG” và “ĐẶT HÀNG”. Lá Bối sẽ gọi lại cho quý khách trong thời gian sớm nhất để tư vấn.</p>
-                                <!-- hotline -->
-                                <div class="product-hotline fs-14 d-3xl-none d-md-block mt-15">
-                                    <p><strong>Hotline/Zalo:</strong> 0867671366</p>
-                                </div>
-                                <!-- end hotline -->
-                            </div>
-
-                            <!-- end sapo -->
-
-
-                            <!-- share -->
-                            <div class="product-share">
-                                <h4 class="product-share__text text-center mb-10 fs-18">Chia sẻ</h4>
-                                <ul class="social-quaternary d-3xl-flex items-center justify-center">
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/fb-brown.svg" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/instagram-brown.svg" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/linked-brown.svg" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/x-twitter-brown.svg" alt="">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- end share -->
-                        </div>
-                        <!-- end right -->
-
-                        <!-- popup -->
-                        <div class="popup js__popupWrapper">
-                            <div class="popup-container popup-container--patten js__popupContent scroll">
-                                <div class="close-popup js__closePopup">
-                                    <img src="./images/svg/x-gray.svg" alt="">
-                                </div>
-
-                                <div class="popup-field">
-                                    <!-- heading -->
-                                    <div class="heading-primary mb-40">
-                                        <h2 class="heading-primary__title fs-40 uppercase mb-15 fw-700 text-center">Tư vấn</h2>
-                
-                                        <div class="heading-primary__union d-3xl-flex items-center justify-center">
-                                            <img src="./images/svg/Union-2.svg" alt="" class="mx-auto union">
-                                        </div>
-                                    </div>
-                                    <!-- end heading -->
-
-                                    <!-- form -->
-                                    <div class="popup-form">
-                                        <form action="#" class="contact-form">
-                                            <div class="contact-row d-3xl-grid d-sm-block col-2 gap-20">
-                                                <!-- name -->
-                                                <div class="contact-field relative contact-name mb-20 bg-white">                                    
-                                                    <input type="text" name="name" placeholder="Họ và tên">
-                                                </div>
-                                                <!-- end name -->
-                                                
-                                                <!-- phone -->
-                                                <div class="contact-field relative contact-subject mb-20 bg-white">                                   
-                                                    <input type="tel" id="phone" name="phone" placeholder="Số điện thoại">
-                                                </div>
-                                                <!-- end phone -->
-                                            </div>
+                        <div class="cart-primary__left flex-1">
+                            <div class="cart-primary__left-table">
+                                <table class="table">
+                                    <thead class="table-head">
+                                        <tr class="table-head__row">
+                                            <th class="table-head__cell">
+                                                <div class="table-head__text">Tên sản phẩm</div>
+                                            </th>
+                                            <th class="table-head__cell">
+                                                <div class="table-head__text">Số lượng</div>
+                                            </th>
+                                            <th class="table-head__cell">
+                                                <div class="table-head__text">Giá</div>
+                                            </th>
+                                            <th class="table-head__cell">
+                                                <div class="table-head__text">Xóa</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-body">
                                         
-                                            <div class="contact-row d-3xl-grid d-sm-block col-2 gap-20">
-                                                <!-- email -->
-                                                <div class="contact-field relative contact-email mb-20 bg-white">                                   
-                                                    <input type="email" name="email" placeholder="Email">
-                                                </div>
-                                                <!-- end email -->
-                                                <!-- last name -->
-                                                <div class="contact-field relative contact-product mb-20 bg-white">                                    
-                                                    <input type="text" name="product" placeholder="Sản phẩm cần tư vấn">
-                                                </div>                                
-                                                <!-- end last name -->
-                                            </div>		
-                                                
-                                            <div class="contact-row">
-                                                <div class="contact-field relative contact-message mb-20 bg-white">                                  
-                                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Nội dung"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="slider-btn text-center">                                          
-                                                <button class="btn btn--primary text-white uppercase fs-18 w-200px"> Gửi</button>				
-                                            </div>                             
-                                        </form>
-                                    </div>
-                                    <!-- end form -->
-                                </div>
-                            </div>
-                            <div class="overlay js__overlay"></div>
-                        </div>
-                        <!-- end popup -->
-                    </div>
-                    <!-- end top -->
-                    <!-- bot -->
-                    <div class="detail-product-primary__bot d-3xl-flex d-md-block mt-40 gap-30 relative js__fullContentDetail">
-                        <!-- left -->
-                        <div class="left detail-primary__left">
-                            <div class="bot-left-tab js__changeTab">
-                                <!-- tabs -->
-                                <div class="tabs-block d-3xl-flex items-center">
-                                    <!-- tab pane item -->
-                                    <div class="tab-item js__tabItem mr-30 pointer fs-20 fw-500 active uppercase">
-                                        <span class="text">Thông tin chi tiết</span>
-                                    </div>
-                                    <!-- end pane item -->
+                                        <!-- tr -->
+                                        <tr class="table-body__row">
+                                            <td class="table-body__cell">
+                                                <div class="table-body__card d-3xl-flex items-center">
+                                                    <div class="table-body__checkbox custom-checkbox flex-1">
+                                                        <input type="checkbox" id="cart-item-1" name="cart-item" checked="">
+                                                        <label for="cart-item-1">
+                                                          <div class="check">
+                                                            <img src="./images/svg/check-w.svg" alt="">
+                                                          </div>
+                                                        </label>
+                                                    </div>
 
-                                    <!-- tab pane item -->
-                                    <div class="tab-item js__tabItem mr-30 pointer fs-20 fw-500 uppercase">
-                                        <span class="text">Thông tin bổ sung</span>
-                                    </div>
-                                    <!-- end pane item -->
-                                    
-                                    
-                                </div>
-                                <!-- end tabs -->
-        
-                                <!-- pane -->
-                                <div class="pane-block">
-                                    <!-- tab pane item -->
-                                    <div class="pane-item js__tabPane active">
-                                        <!-- content -->
-                                        <div class="detail-content">
-                                            <h2>Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</h2>
-                                            <p>Tượng Bổn Sư Thích Ca Ngồi Đài Sen là một tuyệt tác nghệ thuật tinh xảo, chế tác từ đồng men cổ viền vàng mẫn bảo. Với chiều cao lên đến 66cm (tổng lá đề 80cm), sản phẩm không chỉ là điểm nhấn trang trí sang trọng mà còn là biểu tượng của sự quý phái và thiêng liêng.</p>
-                                            <p>Thông tin sản phẩm:</p>
-                                            <ul>
-                                                <li><strong>Chất liệu:</strong> Đồng</li>
-                                                <li><strong>Chất liệu:</strong> Đồng</li>
-                                                <li><strong>Chất liệu:</strong> Đồng</li>
-                                                <li><strong>Chất liệu:</strong> Đồng</li>
-                                                
-                                            </ul>
-                                            <figure class="expNoEdit">
-                                                <a data-fancybox="gallery" href="./images/2.jpg" data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy">
-                                                    <img src="./images/2.jpg" alt="">
-                                                  </a>
-                                                  <figcaption>
-                                                    <h2 class="expEdit">
-                                                        Ảnh minh hoạ. Nguồn: Internet
-                                                    </h2>
-                                                </figcaption>
-                                            </figure>
-                                            <p>Từ xưa, hình tượng Đức Phật đã là chủ đề trung tâm của nghệ thuật tạo hình Phật giáo trong phong thủy, người Phật tử luôn cần có hình ảnh Ngài để chiêm ngưỡng, đảnh lễ, cúng dường và noi gương. Phải kể đến những hình ảnh quen thuộc như tượng Phật Quan Âm, tượng Phật Di Lặc, tượng Phật Thiên Thủ Thiên Nhãn, tượng Phật Chuẩn Đề,…Tuy nhiên, rất nhiều Phật tử nhầm lẫn giữa hình tượng hai vị Bồ Tát: Chuẩn Đề và Phật Quan Âm Thiên Thủ Thiên Nhãn.</p>
-                                            <p>Dựa trên những kiến thức về Phật giáo, Vật phẩm Phật giáo xin chia sẻ những thông tin và cách phân biệt hai mẫu tượng Phật Chuẩn Đề, tượng Phật Thiên Thủ Thiên Nhãn chính xác nhất.</p>
-                                            <h2>1. Sự khác nhau về hình tướng</h2>
-                                            <p> Thiên Thủ Thiên Nhãn Bồ tát và Chuẩn Đề Bồ tát là hai vị Bồ tát có hình tướng khá tương tự nhau, nếu không hiểu rõ về các Ngài thì rất dễ bị nhầm lẫn. Nhiều người còn cho rằng Thiên Thủ Thiên Nhãn Bồ tát và Chuẩn Đề Bồ tát là một, thế nhưng đây là hai vị Bồ tát khác nhau, chỉ có hình tượng được mô tả khá giống nhau mà thôi.</p>
+                                                    <div class="table-body__article d-3xl-flex ml-10">
+                                                        <!-- img -->
+                                                        <div class="article-img w-30 flex-0 bg-brown-linear  border-10 over-hidden">
+                                                            <a href="#" class="ratio-6x7">
+                                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <!-- end img -->
+                                                        <!-- content -->
+                                                        <div class="article-content pl-20 flex-1">
+                                                            <h3 class="article-title fs-16">
+                                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
+                                                            </h3>
+                                                        </div>
+                                                        <!-- end content -->
+                                                    </div>
+                                                    
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell table-body__increment">
+                                                <div class="quantity-wrap js__incremental">
+                                                    <button class="increment js__increment">+</button>
+                                                    <input type="number" value="0" class="number js__numberValue" min="0" max="100">
+                                                    <button class="deincrement js__deincrement">-</button>
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell">
+                                                <div class="table-body__text">
+                                                    120.000.000đ
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell">
+                                                <div class="clear-cart d-3xl-flex items-center justify-center icon-20 pointer">
+                                                    <img src="./images/svg/thung_rac.svg" alt="">
+                                                </div>
+                                            </td>
                                             
-                                        </div>
-                                        <!-- end content -->
-
-                                        <!-- Evaluate -->
-                                        <div class="evaluate-box pt-40">
-                                            <!-- client -->
-                                            <div class="evaluate-client">
-                                                <h2 class="evaluate-client__title fs-24 fw-700 uppercase">Đánh giá từ khách hàng</h2>
-                                                
-                                                <div class="evaluate-client__vote d-3xl-flex d-lg-block items-center mt-24 gap-24">
-                                                    <!-- left -->
-                                                    <div class="vote-left border-20 border-sm-15 d-3xl-flex justify-center flex-column flex-0 w-30 bg-gray-f5 p-40">
-                                                        <div class="vote-left__top d-3xl-flex items-center justify-center">
-                                                            <h2 class="text fs-48 fw-700 mr-15">5,0</h2>
-                                                            <ul class="list-star d-3xl-flex items-center">
-                                                                <li class="item-star">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </li>
-                                                                <li class="item-star">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </li>
-                                                                <li class="item-star">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </li>
-                                                                <li class="item-star">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </li>
-                                                                <li class="item-star">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="vote-left__bot fs-16 text-center mt-10">
-                                                            <p class="">Dựa trên 15 đánh giá</p>
-                                                        </div>
+                                        </tr>
+                                        <!-- end tr -->
+                                        <!-- tr -->
+                                        <tr class="table-body__row">
+                                            <td class="table-body__cell">
+                                                <div class="table-body__card d-3xl-flex items-center">
+                                                    <div class="table-body__checkbox custom-checkbox flex-1">
+                                                        <input type="checkbox" id="cart-item-2" name="cart-item" checked="">
+                                                        <label for="cart-item-2">
+                                                          <div class="check">
+                                                            <img src="./images/svg/check-w.svg" alt="">
+                                                          </div>
+                                                        </label>
                                                     </div>
-                                                    <!-- end left -->
+
+                                                    <div class="table-body__article d-3xl-flex ml-10">
+                                                        <!-- img -->
+                                                        <div class="article-img w-30 flex-0 bg-brown-linear  border-10 over-hidden">
+                                                            <a href="#" class="ratio-6x7">
+                                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <!-- end img -->
+                                                        <!-- content -->
+                                                        <div class="article-content pl-20 flex-1">
+                                                            <h3 class="article-title fs-16">
+                                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
+                                                            </h3>
+                                                        </div>
+                                                        <!-- end content -->
+                                                    </div>
                                                     
-                                                    <!-- right -->
-                                                    <div class="vote-right border-20 border-sm-15 py-20 px-30 flex-1 bg-gray-f5">
-                                                        <!-- item -->
-                                                        <div class="vote-right__item five-star d-3xl-flex items-center mb-8">
-                                                            <!-- star -->
-                                                            <div class="stars d-3xl-flex items-center">
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-- end star -->
-                                                            <div class="range flex-1 mx-15"></div>
-                                                            <div class="total">10</div>
-                                                        </div>
-                                                        <!-- end item -->
-                                                        <!-- item -->
-                                                        <div class="vote-right__item four-star d-3xl-flex items-center mb-8">
-                                                            <!-- star -->
-                                                            <div class="stars d-3xl-flex items-center">
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-- end star -->
-                                                            <div class="range flex-1 mx-15"></div>
-                                                            <div class="total">0</div>
-                                                        </div>
-                                                        <!-- end item -->
-                                                        <!-- item -->
-                                                        <div class="vote-right__item three-star d-3xl-flex items-center mb-8">
-                                                            <!-- star -->
-                                                            <div class="stars d-3xl-flex items-center">
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-- end star -->
-                                                            <div class="range flex-1 mx-15"></div>
-                                                            <div class="total">0</div>
-                                                        </div>
-                                                        <!-- end item -->
-                                                        <!-- item -->
-                                                        <div class="vote-right__item two-star d-3xl-flex items-center mb-8">
-                                                            <!-- star -->
-                                                            <div class="stars d-3xl-flex items-center">
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-- end star -->
-                                                            <div class="range flex-1 mx-15"></div>
-                                                            <div class="total">0</div>
-                                                        </div>
-                                                        <!-- end item -->
-                                                        <!-- item -->
-                                                        <div class="vote-right__item one-star d-3xl-flex items-center mb-8">
-                                                            <!-- star -->
-                                                            <div class="stars d-3xl-flex items-center">
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                                <div class="star-item">
-                                                                    <img src="./images/svg/star-yellow.svg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-- end star -->
-                                                            <div class="range flex-1 mx-15"></div>
-                                                            <div class="total">0</div>
-                                                        </div>
-                                                        <!-- end item -->
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell table-body__increment">
+                                                <div class="quantity-wrap js__incremental">
+                                                    <button class="increment js__increment">+</button>
+                                                    <input type="number" value="0" class="number js__numberValue" min="0" max="100">
+                                                    <button class="deincrement js__deincrement">-</button>
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell">
+                                                <div class="table-body__text">
+                                                    120.000.000đ
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell">
+                                                <div class="clear-cart d-3xl-flex items-center justify-center icon-20 pointer">
+                                                    <img src="./images/svg/thung_rac.svg" alt="">
+                                                </div>
+                                            </td>
+                                            
+                                        </tr>
+                                        <!-- end tr -->
+                                        <!-- tr -->
+                                        <tr class="table-body__row">
+                                            <td class="table-body__cell">
+                                                <div class="table-body__card d-3xl-flex items-center">
+                                                    <div class="table-body__checkbox custom-checkbox flex-1">
+                                                        <input type="checkbox" id="cart-item-3" name="cart-item" checked="">
+                                                        <label for="cart-item-3">
+                                                          <div class="check">
+                                                            <img src="./images/svg/check-w.svg" alt="">
+                                                          </div>
+                                                        </label>
                                                     </div>
-                                                    <!-- end right -->
-                                                </div>
-                                            </div>
-                                            <!-- end client -->
 
-                                            <!-- yourself -->
-                                            <div class="evaluate-yourself mt-40">
-                                                <h2 class="evaluate-yourself__title fs-24 fw-700">Đánh giá của bạn</h2>
-                                                <div class="mt-16 fs-16">
-                                                    <p>Email của bạn sẽ không được hiển thị công khai. Các trường bắt buộc được đánh dấu *</p>
-                                                </div>
-
-                                                <!-- form -->
-                                                <div class="evaluate-yourself-form mt-40">
-                                                    <form action="#" class="contact-form">
-                                                        
-                                                        <div class="contact-row">
-                                                            <div class="contact-field relative contact-message mb-20 bg-white">                                  
-                                                                <textarea name="evaluate-yourself-message" id="evaluate-yourself-message" cols="30" rows="10" placeholder="Mời bạn nhận xét về sản phẩm*" required></textarea>
-                                                            </div>
+                                                    <div class="table-body__article d-3xl-flex ml-10">
+                                                        <!-- img -->
+                                                        <div class="article-img w-30 flex-0 bg-brown-linear  border-10 over-hidden">
+                                                            <a href="#" class="ratio-6x7">
+                                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
+                                                            </a>
                                                         </div>
-
-                                                        <!-- choose file -->
-                                                        <div class="contact-row">
-                                                            <div class="contact-field contact-file relative choose-file mb-20 bg-white">                                  
-                                                                <p class="text fs-16 mb-10">Tải đối đa 5 hình ảnh hoặc video</p>
-                                                                <input type="file" id="myFile" name="img" multiple>
-                                                            </div>
+                                                        <!-- end img -->
+                                                        <!-- content -->
+                                                        <div class="article-content pl-20 flex-1">
+                                                            <h3 class="article-title fs-16">
+                                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
+                                                            </h3>
                                                         </div>
-                                                        <!-- end choose file -->
-
-                                                        <div class="contact-row d-3xl-grid d-md-block col-3 gap-20">
-                                                            <!-- name -->
-                                                            <div class="contact-field relative mb-20 bg-white">                                    
-                                                                <input type="text" id="evaluate-yourself-name" name="evaluate-yourself-name" required placeholder="Họ và tên*">
-                                                            </div>
-                                                            <!-- end name -->
-                                                            
-                                                            <!-- email -->
-                                                            <div class="contact-field relative mb-20 bg-white">                                   
-                                                                <input type="email" id="evaluate-yourself-email" name="evaluate-yourself-email" required placeholder="Email*">
-                                                            </div>
-                                                            <!-- end email -->
-                                                            <!-- phone -->
-                                                            <div class="contact-field relative mb-20 bg-white">                                   
-                                                                <input type="tel" id="evaluate-yourself-phone" name="evaluate-yourself-phone" placeholder="Số điện thoại">
-                                                            </div>
-                                                            <!-- end phone -->
-                                                        </div>
-
-                                                        <div 
-                                                            class="radio-box custom-checkbox mb-20" rel="evaluate-yourself-1-2">
-                                                                <input type="checkbox" id="evaluate-yourself-1-2" name="evaluate-yourself-save">
-                                                                <label for="evaluate-yourself-1-2">
-                                                                    <div class="check">
-                                                                        <img src="./images/svg/check-w.svg" alt="">
-                                                                    </div>
-                                                                    <span class="check-txt">
-                                                                        Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.
-                                                                    </span>
-                                                                </label>
-                                                        </div>
-                                                        
-                                                        <div class="evaluate-yourself-submit">
-                                                            <button class="btn btn--primary text-white uppercase fs-18 w-200px">Gửi</button>				
-                                                        </div>                             
-                                                    </form>
-                                                </div>
-                                                <!-- end form -->
-                                            </div>
-                                            <!-- end yourself -->
-
-                                            <!-- begin user comment -->
-                                            <div class="user-comment">
-                                                <div class="user-comment__container">
-                                                    <!-- begin list cmt -->
-                                                    <div class="user-comment__list">
-                                                        <!-- begin: item -->
-                                                        <div class="user-comment__item py-20 border-b-d9">
-                                                            <!-- begin top -->
-                                                            <div class="user-comment__top d-3xl-flex items-center">
-                                                                <!-- avatar -->
-                                                                <div class="avatar flex-0 mr-10">
-                                                                    <a href="#" class="avatar-link ratio-1x1 border-999 over-hidden">
-                                                                        <img src="./images/2.jpg" alt="" class="img">
-                                                                    </a>
-                                                                </div>
-                                                                <!-- end avatar -->
-
-                                                                <!-- begin info -->
-                                                                <div class="user-comment__info flex-1">
-                                                                    <h2 class="user-comment__name fs-18 fw-700">Nguyễn Văn A</h2>
-                                                                    <div class="user-comment__public d-3xl-flex items-center mt-4">
-                                                                        <span class="time fs-14 d-3xl-inline-block mr-10">1.1.2024</span>
-                                                                        <div class="stars d-3xl-flex items-center">
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- end info -->
-                                                            </div>
-                                                            <!-- end top -->
-
-                                                            <!-- begin content -->
-                                                            <div class="user-comment__content mt-16">
-                                                                <!-- begin text -->
-                                                                <div class="text fs-18">
-                                                                    <p>Tượng Phật rất đẹp và trang nghiêm, shop tư vấn nhiệt tình và ship tận nhà!</p>
-                                                                </div>
-                                                                <!-- end text -->
-
-                                                                <!-- begin images -->
-                                                                <div class="images d-3xl-flex items-center mt-10">
-                                                                    <div class="article-img">
-                                                                        <div class="bg-brown-linear ratio-6x7 border-10 over-hidden">
-                                                                            <img src="./images/img_1.png" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="article-img">
-                                                                        <div class="bg-brown-linear ratio-6x7 border-10 over-hidden">
-                                                                            <img src="./images/img_1.png" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                </div>
-                                                                <!-- end images -->
-                                                            </div>
-                                                            <!-- end content -->
-                                                        </div>
-                                                        <!-- end: item -->
-
-                                                        <!-- begin: item -->
-                                                        <div class="user-comment__item py-20 border-b-d9">
-                                                            <!-- begin top -->
-                                                            <div class="user-comment__top d-3xl-flex items-center">
-                                                                <!-- avatar -->
-                                                                <div class="avatar flex-0 mr-10">
-                                                                    <a href="#" class="avatar-link ratio-1x1 border-999 over-hidden">
-                                                                       <p class="text">B</p>
-                                                                    </a>
-                                                                </div>
-                                                                <!-- end avatar -->
-
-                                                                <!-- begin info -->
-                                                                <div class="user-comment__info flex-1">
-                                                                    <h2 class="user-comment__name fs-18 fw-700">Nguyễn Văn B</h2>
-                                                                    <div class="user-comment__public d-3xl-flex items-center mt-4">
-                                                                        <span class="time fs-14 d-3xl-inline-block mr-10">1.1.2024</span>
-                                                                        <div class="stars d-3xl-flex items-center">
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- end info -->
-                                                            </div>
-                                                            <!-- end top -->
-
-                                                            <!-- begin content -->
-                                                            <div class="user-comment__content mt-16">
-                                                                <!-- begin text -->
-                                                                <div class="text fs-18">
-                                                                    <p>Tượng Phật rất đẹp và trang nghiêm, shop tư vấn nhiệt tình và ship tận nhà!</p>
-                                                                </div>
-                                                                <!-- end text -->
-
-                                                                <!-- begin images -->
-                                                                <div class="images d-3xl-flex items-center mt-10">
-                                                                    <div class="article-img">
-                                                                        <div class="bg-brown-linear ratio-6x7 border-10 over-hidden">
-                                                                            <img src="./images/img_1.png" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="article-img">
-                                                                        <div class="bg-brown-linear ratio-6x7 border-10 over-hidden">
-                                                                            <img src="./images/img_1.png" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                </div>
-                                                                <!-- end images -->
-                                                            </div>
-                                                            <!-- end content -->
-                                                        </div>
-                                                        <!-- end: item -->
-
-                                                        <!-- begin: item -->
-                                                        <div class="user-comment__item py-20 border-b-d9">
-                                                            <!-- begin top -->
-                                                            <div class="user-comment__top d-3xl-flex items-center">
-                                                                <!-- avatar -->
-                                                                <div class="avatar flex-0 mr-10">
-                                                                    <a href="#" class="avatar-link ratio-1x1 border-999 over-hidden">
-                                                                       <p class="text">C</p>
-                                                                    </a>
-                                                                </div>
-                                                                <!-- end avatar -->
-
-                                                                <!-- begin info -->
-                                                                <div class="user-comment__info flex-1">
-                                                                    <h2 class="user-comment__name fs-18 fw-700">Nguyễn Văn C</h2>
-                                                                    <div class="user-comment__public d-3xl-flex items-center mt-4">
-                                                                        <span class="time fs-14 d-3xl-inline-block mr-10">1.1.2024</span>
-                                                                        <div class="stars d-3xl-flex items-center">
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                            <div class="star-item">
-                                                                                <img src="./images/svg/star-yellow.svg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- end info -->
-                                                            </div>
-                                                            <!-- end top -->
-
-                                                            <!-- begin content -->
-                                                            <div class="user-comment__content mt-16">
-                                                                <!-- begin text -->
-                                                                <div class="text fs-18">
-                                                                    <p>Tượng Phật rất đẹp và trang nghiêm, shop tư vấn nhiệt tình và ship tận nhà!</p>
-                                                                </div>
-                                                                <!-- end text -->
-                                                                
-                                                            </div>
-                                                            <!-- end content -->
-                                                        </div>
-                                                        <!-- end: item -->
+                                                        <!-- end content -->
                                                     </div>
-                                                    <!-- end list cmt -->
-
-                                                    <!-- sử dụng một trong 2 phân trang or xem thêm -->
-                                                    <!-- begin pagination -->
-                                                    <ul class="pagination d-3xl-flex items-center fs-16 uppercase mt-30">
-                                                        <li class="pagination-item active">
-                                                            <a href="#" class="pagination-link">01</a>
-                                                        </li>
-                                                        <li class="pagination-item">
-                                                            <a href="#" class="pagination-link">02</a>
-                                                        </li>
-                                                        <li class="pagination-item">
-                                                            <a href="#" class="pagination-link">03</a>
-                                                        </li>
-                                                        <li class="pagination-item">
-                                                            <a href="#" class="pagination-link">04</a>
-                                                        </li>
-                                                    </ul>
-                                                    <!-- end pagination -->
-
-                                                    <!-- begin see more -->
-                                                    <div class="article-btn d-3xl-flex items-center justify-center mt-40 mt-lg-20">
-                                                        <a href="#" class="article-btn__link d-3xl-flex items-center btn uppercase fs-18">
-                                                            <span class="text flex-1 d-3xl-inline-block">Xem thêm</span>
-                                                            <div class="icon flex-0 ml-10">
-                                                                <img src="./images/svg/next-custemer-w.svg" alt="" class="icon-next">
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end see more -->
-                                                    <!-- end sử dụng một trong 2 phân trang or xem thêm -->
-                                                </div>
-                                            </div>
-                                            <!-- end user comment -->
-                                        </div>
-                                        <!-- end Evaluate -->
-                                    </div>
-                                    <!-- end pane item -->
-                                    
-                                    <!-- tab pane item -->
-                                    <div class="pane-item js__tabPane">
-                                        <!-- content -->
-                                        <div class="detail-content">
-                                            <h3>Thông tin bổ sung:</h3>
-                                            <table>
-                                                <thead>
-                                                    <tr>
-                                                        <th>
-                                                            <strong>Tên sản phẩm</strong>
-                                                        </th>
-                                                        <th>
-                                                            <strong>Số lượng</strong>
-                                                        </th>
-                                                        <th>
-                                                            <strong>Giá</strong>
-                                                        </th>
-                                                        
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <!-- row -->
-                                                    <tr>
-                                                        <td>
-                                                            Cap Padaran Mũi Dinh Ninh Thuận
-                                                        </td>
-                                                        <td>
-                                                            766,23 ha
-                                                        </td>
-                                                        <td>
-                                                            Cap Padaran Mũi Dinh Ninh Thuận
-                                                        </td>
-                                                        
-                                                    </tr>
-                                                    <!-- end row -->
                                                     
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                    <!-- end pane item -->
-                                    
-                                </div>
-                                <!-- end large -->
-        
-                                
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell table-body__increment">
+                                                <div class="quantity-wrap js__incremental">
+                                                    <button class="increment js__increment">+</button>
+                                                    <input type="number" value="0" class="number js__numberValue" min="0" max="100">
+                                                    <button class="deincrement js__deincrement">-</button>
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell">
+                                                <div class="table-body__text">
+                                                    120.000.000đ
+                                                </div>
+                                            </td>
+                                            <td class="table-body__cell">
+                                                <div class="clear-cart d-3xl-flex items-center justify-center icon-20 pointer">
+                                                    <img src="./images/svg/thung_rac.svg" alt="">
+                                                </div>
+                                            </td>
+                                            
+                                        </tr>
+                                        <!-- end tr -->
+                                        
+                                        
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                         <!-- end left -->
+
                         <!-- right -->
-                        <div class="right detail-primary__right d-md-none">
-                            <div class="detail-box-one over-hidden border-25 bg-yellow-fff p-30 mb-40">
-                                <h2 class="title fs-20 text-center fw-600 uppercase mb-24">Tư vấn nhanh</h2>
-                                <div class="phone mb-24">
-                                    <a href="tel:0123456789" class="d-3xl-flex items-center justify-center bg-white border-999 py-8 px-12">
-                                        <div class="icon">
-                                            <img src="./images/svg/phone-brown.svg" alt="">
-                                        </div>
-                                        <p class="text-brown-a9 fs-28 fw-700 ml-10">08.6767.1366</p>
-                                    </a>
+                        <div class="cart-primary__right flex-0 w-40 px-30 pb-30">
+                            <!-- pay list -->
+                            <div class="pay-list pt-10">
+                                <div class="pay-item d-3xl-flex items-center justify-between py-20 border-b-d9">
+                                    <h3 class="pay-item__title fs-18 fw-500">Tạm tính:</h3>
+                                    <h4 class="pay-item__number">120.000.000đ</h4>
                                 </div>
-    
-                                <ul class="social-tertiary d-3xl-flex items-center justify-between">
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/fb-brown.svg" alt="">
-                                        </a>
+                                <div class="pay-item d-3xl-flex items-center justify-between py-20 border-b-d9">
+                                    <h3 class="pay-item__title fs-18 fw-500">Phí vận chuyển:</h3>
+                                    <h4 class="pay-item__number">0đ</h4>
+                                </div>
+                                <div class="pay-item d-3xl-flex items-center justify-between py-20 border-b-d9">
+                                    <h3 class="pay-item__title fs-18 fw-500">Số lượng:</h3>
+                                    <h4 class="pay-item__number">3</h4>
+                                </div>
+                                <div class="pay-item d-3xl-flex items-center justify-between py-20 border-b-d9">
+                                    <h3 class="pay-item__title fs-18 fw-500">Giảm giá:</h3>
+                                    <h4 class="pay-item__number">1.000.000đ</h4>
+                                </div>
+                                <div class="pay-item d-3xl-flex items-center justify-between py-20 border-b-d9">
+                                    <h3 class="pay-item__title fs-18 fw-500 uppercase">Tổng cộng:</h3>
+                                    <h4 class="pay-item__number fw-700">119.000.000đ</h4>
+                                </div>
+                            </div>
+                            <!-- end pay list -->
+                            
+                            <div class="btn-buy-now btn uppercase fs-18 w-full mb-20">Thanh toán</div>
+
+                            <div class="discount-code border-15 bg-brown-a9 p-20 text-white">
+                                <h3 class="discount-code__title fs-18 fw-700 mb-10">Mã giảm giá</h3>
+                                <ul class="discount-code__list">
+                                    <li class="discount-code__item">
+                                        Nhập mã LB5S giảm thêm 5% đơn hàng
+                                        <span class="apply">Đã áp dụng</span>
                                     </li>
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/instagram-brown.svg" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/linked-brown.svg" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#" class="social-link">
-                                            <img src="./images/svg/x-twitter-brown.svg" alt="">
-                                        </a>
+                                    <li class="discount-code__item">
+                                       Nhập mã LBRE miễn phí vận chuyển
+                                       <span class="apply">Áp dụng</span>
                                     </li>
                                 </ul>
                             </div>
+
+                            <div class="discount-code-btn mt-10">
+                                <div class="discount-code-btn__item d-3xl-flex items-center">
+                                    <div class="icon-clear flex-0">
+                                        <img src="./images/svg/close-w.svg" alt="">
+                                    </div>
+                                    <p class="text fs-16 text-brown-a9 flex-1 pl-10">Đã áp mã <strong>LB5S</strong></p>
+                                </div>
+                            </div>
                         </div>
                         <!-- end right -->
-
-                        <!-- xem full -->
-                        <div class="see-full js__seeFullContentContainer absolute">
-                            <div class="see-full-content p-20 d-3xl-flex items-center justify-center pointer js__seeFullContent">
-                                <span class="fs-18 uppercase">Xem thêm</span>
-                                <div class="icon flex-0 icon-16 ml-10">
-                                    <img src="./images/svg/down-polygon-brown.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end xem full -->
                     </div>
-                    <!-- end bot -->
                 </div>
             </section>
-            <!-- end detail product primary -->
-
-            <!-- detail secondary -->
-            <section class="detail-secondary relative z-10 over-hidden w-wrapper">
-                <div class="detail-secondary__container w-1380 w-md-500 py-3xl-70 py-lg-50 py-md-30">
-
-                    <!-- heading primary-->
-                    <div class="heading-primary mb-40">
-                        <h2 class="heading-primary__title fs-40 uppercase mb-15 fw-700 text-center">Sản phẩm khác</h2>
-
-                        <div class="heading-primary__union d-3xl-flex items-center justify-center">
-                            <img src="./images/svg/Union-2.svg" alt="" class="mx-auto union">
-                        </div>
-                    </div>
-                    <!-- end heading primary-->
-                    
-                    <div class="detail-secondary__slide w-full relative js__fiveSlidesContainer">
-                        <div class="swiper js__fiveSlide">
-                            <div class="swiper-wrapper">
-                                <!-- slide -->
-                                <div class="swiper-slide">
-                                    <div class="article border-15 over-hidden card-primary">
-                                        <!-- top -->
-                                        <div class="article-top bg-brown-linear over-hidden relative">
-                                            <!-- img -->
-                                            <div class="article-img ratio-1x1">
-                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
-                                            </div>
-                                            <!-- end img -->
-                                            <a href="#" class="add-cart bg-brown-a9 border-999 absolute py-4 px-15 d-3xl-flex items-center justify-center">
-                                                <span class="add-cart__text text-white fs-14 d-3xl-inline-block flex-1">Thêm vào giỏ hàng</span>
-                                                <div class="add-cart__icon flex-0">
-                                                    <img src="./images/svg/giff.svg" alt="" class="icon">
-                                                </div>
-                                            </a>
-                                            <span class="discount">-5%</span>
-                                        </div>
-                                        <!-- end top -->
-                                        <!-- content -->
-                                        <div class="article-content px-10 pt-12 pb-20 bg-white">
-                                            <h3 class="article-title fs-16 fw-600 mb-10">
-                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
-                                            </h3>
-                                            <div class="article-price text-center p-8 bg-yellow-fff border-10">
-                                                <h4 class="new-price fs-16">Giá: <span class="fw-700 text-brown-a9">120.000.000đ</span></h4>
-                                                <h5 class="old-price fs-14 text-gray-84">150.000.000đ</h5>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                </div>
-                                <!-- end slide -->
-                                <!-- slide -->
-                                <div class="swiper-slide">
-                                    <div class="article border-15 over-hidden card-primary">
-                                        <!-- top -->
-                                        <div class="article-top bg-brown-linear over-hidden relative">
-                                            <!-- img -->
-                                            <div class="article-img ratio-1x1">
-                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
-                                            </div>
-                                            <!-- end img -->
-                                            <a href="#" class="add-cart bg-brown-a9 border-999 absolute py-4 px-15 d-3xl-flex items-center justify-center">
-                                                <span class="add-cart__text text-white fs-14 d-3xl-inline-block flex-1">Thêm vào giỏ hàng</span>
-                                                <div class="add-cart__icon flex-0">
-                                                    <img src="./images/svg/giff.svg" alt="" class="icon">
-                                                </div>
-                                            </a>
-                                            <span class="discount">-5%</span>
-                                        </div>
-                                        <!-- end top -->
-                                        <!-- content -->
-                                        <div class="article-content px-10 pt-12 pb-20 bg-white">
-                                            <h3 class="article-title fs-16 fw-600 mb-10">
-                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
-                                            </h3>
-                                            <div class="article-price text-center p-8 bg-yellow-fff border-10">
-                                                <h4 class="new-price fs-16">Giá: <span class="fw-700 text-brown-a9">120.000.000đ</span></h4>
-                                                <h5 class="old-price fs-14 text-gray-84">150.000.000đ</h5>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                </div>
-                                <!-- end slide -->
-                                <!-- slide -->
-                                <div class="swiper-slide">
-                                    <div class="article border-15 over-hidden card-primary">
-                                        <!-- top -->
-                                        <div class="article-top bg-brown-linear over-hidden relative">
-                                            <!-- img -->
-                                            <div class="article-img ratio-1x1">
-                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
-                                            </div>
-                                            <!-- end img -->
-                                            <a href="#" class="add-cart bg-brown-a9 border-999 absolute py-4 px-15 d-3xl-flex items-center justify-center">
-                                                <span class="add-cart__text text-white fs-14 d-3xl-inline-block flex-1">Thêm vào giỏ hàng</span>
-                                                <div class="add-cart__icon flex-0">
-                                                    <img src="./images/svg/giff.svg" alt="" class="icon">
-                                                </div>
-                                            </a>
-                                            <span class="discount">-5%</span>
-                                        </div>
-                                        <!-- end top -->
-                                        <!-- content -->
-                                        <div class="article-content px-10 pt-12 pb-20 bg-white">
-                                            <h3 class="article-title fs-16 fw-600 mb-10">
-                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
-                                            </h3>
-                                            <div class="article-price text-center p-8 bg-yellow-fff border-10">
-                                                <h4 class="new-price fs-16">Giá: <span class="fw-700 text-brown-a9">120.000.000đ</span></h4>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                </div>
-                                <!-- end slide -->
-                                <!-- slide -->
-                                <div class="swiper-slide">
-                                    <div class="article border-15 over-hidden card-primary">
-                                        <!-- top -->
-                                        <div class="article-top bg-brown-linear over-hidden relative">
-                                            <!-- img -->
-                                            <div class="article-img ratio-1x1">
-                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
-                                            </div>
-                                            <!-- end img -->
-                                            <a href="#" class="add-cart bg-brown-a9 border-999 absolute py-4 px-15 d-3xl-flex items-center justify-center">
-                                                <span class="add-cart__text text-white fs-14 d-3xl-inline-block flex-1">Thêm vào giỏ hàng</span>
-                                                <div class="add-cart__icon flex-0">
-                                                    <img src="./images/svg/giff.svg" alt="" class="icon">
-                                                </div>
-                                            </a>
-                                            <span class="discount">-5%</span>
-                                        </div>
-                                        <!-- end top -->
-                                        <!-- content -->
-                                        <div class="article-content px-10 pt-12 pb-20 bg-white">
-                                            <h3 class="article-title fs-16 fw-600 mb-10">
-                                                <a href="#">Tượng Bổn Sư Thích Ca</a>
-                                            </h3>
-                                            <div class="article-price text-center p-8 bg-yellow-fff border-10">
-                                                <h4 class="new-price fs-16">Giá: <span class="fw-700 text-brown-a9">120.000.000đ</span></h4>
-                                                <h5 class="old-price fs-14 text-gray-84">150.000.000đ</h5>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                </div>
-                                <!-- end slide -->
-                                <!-- slide -->
-                                <div class="swiper-slide">
-                                    <div class="article border-15 over-hidden card-primary">
-                                        <!-- top -->
-                                        <div class="article-top bg-brown-linear over-hidden relative">
-                                            <!-- img -->
-                                            <div class="article-img ratio-1x1">
-                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
-                                            </div>
-                                            <!-- end img -->
-                                            <a href="#" class="add-cart bg-brown-a9 border-999 absolute py-4 px-15 d-3xl-flex items-center justify-center">
-                                                <span class="add-cart__text text-white fs-14 d-3xl-inline-block flex-1">Thêm vào giỏ hàng</span>
-                                                <div class="add-cart__icon flex-0">
-                                                    <img src="./images/svg/giff.svg" alt="" class="icon">
-                                                </div>
-                                            </a>
-                                            <span class="discount">-5%</span>
-                                        </div>
-                                        <!-- end top -->
-                                        <!-- content -->
-                                        <div class="article-content px-10 pt-12 pb-20 bg-white">
-                                            <h3 class="article-title fs-16 fw-600 mb-10">
-                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
-                                            </h3>
-                                            <div class="article-price text-center p-8 bg-yellow-fff border-10">
-                                                <h4 class="new-price fs-16">Giá: <span class="fw-700 text-brown-a9">120.000.000đ</span></h4>
-                                                <h5 class="old-price fs-14 text-gray-84">150.000.000đ</h5>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                </div>
-                                <!-- end slide -->
-                                <!-- slide -->
-                                <div class="swiper-slide">
-                                    <div class="article border-15 over-hidden card-primary">
-                                        <!-- top -->
-                                        <div class="article-top bg-brown-linear over-hidden relative">
-                                            <!-- img -->
-                                            <div class="article-img ratio-1x1">
-                                                <img loading="lazy" class="img" src="./images/img_1.png" width="" height="" alt="">
-                                            </div>
-                                            <!-- end img -->
-                                            <a href="#" class="add-cart bg-brown-a9 border-999 absolute py-4 px-15 d-3xl-flex items-center justify-center">
-                                                <span class="add-cart__text text-white fs-14 d-3xl-inline-block flex-1">Thêm vào giỏ hàng</span>
-                                                <div class="add-cart__icon flex-0">
-                                                    <img src="./images/svg/giff.svg" alt="" class="icon">
-                                                </div>
-                                            </a>
-                                            <span class="discount">-5%</span>
-                                        </div>
-                                        <!-- end top -->
-                                        <!-- content -->
-                                        <div class="article-content px-10 pt-12 pb-20 bg-white">
-                                            <h3 class="article-title fs-16 fw-600 mb-10">
-                                                <a href="#">Tượng Bổn Sư Thích Ca Ngồi Đài Sen Bằng Đồng Men Cổ Viền Vàng Mẫn Bảo</a>
-                                            </h3>
-                                            <div class="article-price text-center p-8 bg-yellow-fff border-10">
-                                                <h4 class="new-price fs-16">Giá: <span class="fw-700 text-brown-a9">120.000.000đ</span></h4>
-                                                <h5 class="old-price fs-14 text-gray-84">150.000.000đ</h5>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                </div>
-                                <!-- end slide -->
-                                
-                                
-                            </div>
-
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    
-                     
-
-                </div>
-            </section>
-            <!-- end detail secondary -->
+            <!-- end cart primary -->
 
 
         </main>
